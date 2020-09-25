@@ -570,7 +570,7 @@ public class OWLTutorialSyntaxObjectRenderer extends OWLObjectVisitorAdapter {
 	public void visit(OWLMetamodellingAxiom axiom) {
 		axiom.getMetamodelIndividual().accept(this);
         writeSpace();
-        write(keyword("metaModelling"));
+        write(keyword("metamodelling"));
         writeSpace();
         axiom.getModelClass().accept(this);
 

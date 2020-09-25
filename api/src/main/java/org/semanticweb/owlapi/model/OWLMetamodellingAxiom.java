@@ -1,8 +1,6 @@
 package org.semanticweb.owlapi.model;
 
-import org.semanticweb.owlapi.model.OWLLogicalAxiom;
-
-public interface OWLMetamodellingAxiom extends OWLLogicalAxiom {
+public interface OWLMetamodellingAxiom extends OWLClassAxiom {
 	
 	/**
      * Gets the ModelClass in this axiom

@@ -240,14 +240,7 @@ public class InitVisitorFactory {
         }
         
         @Override
-		public K visit(OWLMetamodellingAxiom axiom) {
-			if ( sub ){
-			    return (K) axiom.getModelClass();
-			}
-			else{
-				return (K) axiom.getMetamodelIndividual();
-			}
-		}
+		public K visit(OWLMetamodellingAxiom axiom) { return (K) axiom.getMetamodelIndividual(); }
     }
 
     /**

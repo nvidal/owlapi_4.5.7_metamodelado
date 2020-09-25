@@ -123,7 +123,7 @@ public enum ManchesterOWLSyntax {
     /**SUB_PROPERTY_CHAIN          */    SUB_PROPERTY_CHAIN          ("SubPropertyChain",          false, true,  true,  false, false),
     /**HAS_KEY                     */    HAS_KEY                     ("HasKey",                    false, true,  false, false, false),
     /**RULE                        */    RULE                        ("Rule",                      true,  true,  false, false, false),
-    /**METAMODELLING               */    METAMODELLING				 ("MetaModeling", 			   false, true,  true,  false, false);
+    /**METAMODELLING               */    METAMODELLING				 ("Metamodeling", 			   false, true,  true,  false, false);
 
     //@formatter:on
     private final boolean frameKeyword;

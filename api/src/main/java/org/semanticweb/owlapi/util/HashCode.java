@@ -821,7 +821,7 @@ public class HashCode implements OWLObjectVisitor, SWRLObjectVisitor {
     
 	@Override
 	public void visit(OWLMetamodellingAxiom axiom) {
-		hashCode = 147;
+		hashCode = primes[83];
 		hashCode = hashCode * MULT + axiom.getMetamodelIndividual().hashCode();
 		hashCode = hashCode * MULT + axiom.getModelClass().hashCode();
 		hashCode = hashCode * MULT + axiom.getAnnotations().hashCode(); 

@@ -695,7 +695,7 @@ public abstract class AbstractTranslator<N extends Serializable, R extends N, P 
     
     @Override
 	public void visit(OWLMetamodellingAxiom axiom) {
-    	addSingleTripleAxiom(axiom, axiom.getMetamodelIndividual(), RDFS_METAMODELLING.getIRI(), axiom.getModelClass());
+        addSingleTripleAxiom(axiom, axiom.getMetamodelIndividual(), RDFS_METAMODELLING.getIRI(), axiom.getModelClass());
 	}
 
     @Override
